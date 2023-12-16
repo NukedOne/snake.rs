@@ -1,35 +1,34 @@
-# snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NukedOne/snake/master/snake.png" alt="snake"/>
+</p>
 
-![build status](https://github.com/xvm32/snake/workflows/build/badge.svg) [![codecov](https://codecov.io/gh/xvm32/snake/branch/master/graph/badge.svg?token=PGXYCNZL49)](https://codecov.io/gh/xvm32/snake)
+<h1 align="center">snake</h1>
 
-This is a snake game I made to explore Rust a bit.
+This is a snake game I hacked together using ncurses.
 
-## Installation and playing
+## Compiling
 
-![screenshot](snake.gif)
-
-* It looks better in real life than on this asciicast, I promise.
-
-```
-cargo install --git https://github.com/xvm32/snake.git
-```
-
-Then run:
+Clone the repository and run:
 
 ```
-snake
+cargo build --release
 ```
 
-## Development
+## Tests
 
-You will need curses libraries:
+To run the test suite, run:
 
 ```
-sudo apt install libncurses5 libncurses5-dev
+cargo test
 ```
 
-Fork the repository, and make a PR.
+## Contributing
+
+Fork the repository and submit a PR.
+
+## See also
+[snake.py](https://github.com/NukedOne/snake.py) - Another snake clone, written in Python
 
 ## Licensing
 
-Licensed under the [MIT License](https://opensource.org/licenses/MIT). For details, see [LICENSE](https://github.com/xvm32/snake/blob/master/LICENSE).
+Licensed under the [MIT License](https://opensource.org/licenses/MIT). For details, see [LICENSE](https://github.com/NukedOne/snake/blob/master/LICENSE).
