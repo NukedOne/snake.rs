@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/NukedOne/snake/master/snake.png" alt="snake"/>
-</p>
-
 <h1 align="center">snake</h1>
 
 This is a snake game I hacked together using ncurses.
